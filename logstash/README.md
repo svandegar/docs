@@ -20,6 +20,8 @@ WARNING:
 -	[`5.6.16`, `5.6`, `5` (*5/Dockerfile*)](https://github.com/docker-library/logstash/blob/aeeca991ff2187ff26c8dd1595e792c53c497d5f/5/Dockerfile)
 -	[`5.6.16-alpine`, `5.6-alpine`, `5-alpine` (*5/alpine/Dockerfile*)](https://github.com/docker-library/logstash/blob/aeeca991ff2187ff26c8dd1595e792c53c497d5f/5/alpine/Dockerfile)
 
+[![Build Status](https://doi-janky.infosiftr.net/job/multiarch/job/amd64/job/logstash/badge/icon) (`amd64/logstash` build job)](https://doi-janky.infosiftr.net/job/multiarch/job/amd64/job/logstash/)
+
 # Quick reference
 
 -	**Where to get help**:  

@@ -16,8 +16,9 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`8`, `8u202`, `8-al2-full`, `latest` (*Dockerfile*)](https://github.com/corretto/corretto-8-docker/blob/00075d9caa52634b489867a1a8c5a146b1695d0a/Dockerfile)
--	[`11`, `11.0.2`, `11-al2-full` (*Dockerfile*)](https://github.com/corretto/corretto-11-docker/blob/13edf15055f74d5cbe0c3f5f8a0c1665414cadfd/Dockerfile)
+**No supported tags found!**
+
+It is very likely that `amazoncorretto` does not support the currently selected architecture (`arm32v7`).
 
 # Quick reference
 

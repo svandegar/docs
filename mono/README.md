@@ -20,7 +20,8 @@ WARNING:
 -	[`5.18.1.0-slim`, `slim`, `5.18.1-slim`, `5.18-slim`, `5-slim` (*5.18.1.0/slim/Dockerfile*)](https://github.com/mono/docker/blob/3c2e39edd2bd3eb93f393b4682e41068a25df499/5.18.1.0/slim/Dockerfile)
 -	[`5.16.1.0`, `5.16.1`, `5.16` (*5.16.1.0/Dockerfile*)](https://github.com/mono/docker/blob/3c2e39edd2bd3eb93f393b4682e41068a25df499/5.16.1.0/Dockerfile)
 -	[`5.16.1.0-slim`, `5.16.1-slim`, `5.16-slim` (*5.16.1.0/slim/Dockerfile*)](https://github.com/mono/docker/blob/3c2e39edd2bd3eb93f393b4682e41068a25df499/5.16.1.0/slim/Dockerfile)
--	[`4.8.0.524`, `4.8.0`, `4.8`, `4` (*4.8.0.524/Dockerfile*)](https://github.com/mono/docker/blob/0d987d93235630e05a14983c7f87500ab33c90da/4.8.0.524/Dockerfile)
+
+[![Build Status](https://doi-janky.infosiftr.net/job/multiarch/job/ppc64le/job/mono/badge/icon) (`ppc64le/mono` build job)](https://doi-janky.infosiftr.net/job/multiarch/job/ppc64le/job/mono/)
 
 # Quick reference
 
@@ -68,7 +69,7 @@ This image will run stand-alone Mono console apps.
 This example Dockerfile will run an executable called `TestingConsoleApp.exe`.
 
 ```dockerfile
-FROM mono:3.10-onbuild
+FROM ppc64le/mono:3.10-onbuild
 CMD [ "mono",  "./TestingConsoleApp.exe" ]
 ```
 
@@ -93,15 +94,15 @@ Thanks to [Michael Friis](http://friism.com/) for his preliminary work.
 
 # Image Variants
 
-The `mono` images come in many flavors, each designed for a specific use case.
+The `ppc64le/mono` images come in many flavors, each designed for a specific use case.
 
-## `mono:<version>`
+## `ppc64le/mono:<version>`
 
 This is the defacto image. If you are unsure about what your needs are, you probably want to use this one. It is designed to be used both as a throw away container (mount your source code and start the container to start your app), as well as the base to build other images off of.
 
-## `mono:<version>-slim`
+## `ppc64le/mono:<version>-slim`
 
-This image does not contain the common packages contained in the default tag and only contains the minimal packages needed to run `mono`. Unless you are working in an environment where *only* the `mono` image will be deployed and you have space constraints, we highly recommend using the default image of this repository.
+This image does not contain the common packages contained in the default tag and only contains the minimal packages needed to run `ppc64le/mono`. Unless you are working in an environment where *only* the `ppc64le/mono` image will be deployed and you have space constraints, we highly recommend using the default image of this repository.
 
 # License
 

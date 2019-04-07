@@ -16,11 +16,13 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`20190228`, `edge` (*x86_64//Dockerfile*)](https://github.com/alpinelinux/docker-alpine/blob/0d41e5d52a51c3762caf8ea2a0abc74f77b9ebe2/x86_64//Dockerfile)
--	[`3.9.2`, `3.9`, `latest` (*x86_64//Dockerfile*)](https://github.com/alpinelinux/docker-alpine/blob/847dd9a734df631555265ccf598ce635d3fe1453/x86_64//Dockerfile)
--	[`3.8.4`, `3.8` (*x86_64//Dockerfile*)](https://github.com/alpinelinux/docker-alpine/blob/dc10be162e9d2c3f799fde73e25ad30f78ff479b/x86_64//Dockerfile)
--	[`3.7.3`, `3.7` (*x86_64//Dockerfile*)](https://github.com/alpinelinux/docker-alpine/blob/e5205c8b54dd31cf9f9bb010f56cd5dfca73a711/x86_64//Dockerfile)
--	[`3.6.5`, `3.6` (*x86_64//Dockerfile*)](https://github.com/alpinelinux/docker-alpine/blob/a63b6f1205ccb10d0df96f743de4247df6e59b39/x86_64//Dockerfile)
+-	[`20190228`, `edge` (*ppc64le//Dockerfile*)](https://github.com/alpinelinux/docker-alpine/blob/0d41e5d52a51c3762caf8ea2a0abc74f77b9ebe2/ppc64le//Dockerfile)
+-	[`3.9.2`, `3.9`, `latest` (*ppc64le//Dockerfile*)](https://github.com/alpinelinux/docker-alpine/blob/847dd9a734df631555265ccf598ce635d3fe1453/ppc64le//Dockerfile)
+-	[`3.8.4`, `3.8` (*ppc64le//Dockerfile*)](https://github.com/alpinelinux/docker-alpine/blob/dc10be162e9d2c3f799fde73e25ad30f78ff479b/ppc64le//Dockerfile)
+-	[`3.7.3`, `3.7` (*ppc64le//Dockerfile*)](https://github.com/alpinelinux/docker-alpine/blob/e5205c8b54dd31cf9f9bb010f56cd5dfca73a711/ppc64le//Dockerfile)
+-	[`3.6.5`, `3.6` (*ppc64le//Dockerfile*)](https://github.com/alpinelinux/docker-alpine/blob/a63b6f1205ccb10d0df96f743de4247df6e59b39/ppc64le//Dockerfile)
+
+[![Build Status](https://doi-janky.infosiftr.net/job/multiarch/job/ppc64le/job/alpine/badge/icon) (`ppc64le/alpine` build job)](https://doi-janky.infosiftr.net/job/multiarch/job/ppc64le/job/alpine/)
 
 # Quick reference
 
@@ -63,7 +65,7 @@ WARNING:
 Use like you would any other base image:
 
 ```dockerfile
-FROM alpine:3.7
+FROM ppc64le/alpine:3.7
 RUN apk add --no-cache mysql-client
 ENTRYPOINT ["mysql"]
 ```

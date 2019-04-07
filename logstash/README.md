@@ -16,9 +16,9 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`6.7.0` (*6/Dockerfile*)](https://github.com/docker-library/logstash/blob/40ea47940cb4bf309f2633238ffe434192d262d0/6/Dockerfile)
--	[`5.6.16`, `5.6`, `5` (*5/Dockerfile*)](https://github.com/docker-library/logstash/blob/aeeca991ff2187ff26c8dd1595e792c53c497d5f/5/Dockerfile)
--	[`5.6.16-alpine`, `5.6-alpine`, `5-alpine` (*5/alpine/Dockerfile*)](https://github.com/docker-library/logstash/blob/aeeca991ff2187ff26c8dd1595e792c53c497d5f/5/alpine/Dockerfile)
+**No supported tags found!**
+
+It is very likely that `logstash` does not support the currently selected architecture (`i386`).
 
 # Quick reference
 
